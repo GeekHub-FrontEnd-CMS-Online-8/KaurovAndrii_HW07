@@ -1,0 +1,23 @@
+@media screen and (max-width: 992px){
+	.editor .title p{
+		width: auto;
+	}
+}
+@media screen and (max-width: 768px){
+	.html p{
+		text-align: center;
+	}
+	.menu{
+		flex-direction: column;
+		align-items: center;
+		li{
+			margin: 20px 0;
+		}
+	}
+}
+@media screen and (max-width: 576px){
+	.card{
+		width: 80%;
+		margin: 20px auto;
+	}
+}
